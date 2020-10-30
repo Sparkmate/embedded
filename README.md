@@ -7,7 +7,19 @@
 
 
 ##  1. <a name='Tableofcontents'></a>Table of contents
+<!-- vscode-markdown-toc -->
+* 1. [Table of contents](#Tableofcontents)
+* 2. [Description](#Description)
+* 3. [Installation instructions](#Installationinstructions)
+	* 3.1. [ Installing the python package](#Installingthepythonpackage)
+	* 3.2. [Installing the Arduino package](#InstallingtheArduinopackage)
+* 4. [License](#License)
 
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 ##  2. <a name='Description'></a>Description
 This repository aims at giving you the perfect boiler plate for embedded system. It was prompted by the assessment that all embedded system end up using a few of the following elements:
@@ -31,7 +43,7 @@ The installation instruction differs whether you are using the C library or the 
 > python3 --version && pip3 --version
 - the arduino framework or platform io (we recommend using it with vscode)
 
-###  Installing the python package
+###  3.1. <a name='Installingthepythonpackage'></a> Installing the python package
 1. clone this repository:
 > git clone //TODO:
 2. copy the folder **python-boilerplate** to your library project folder:
@@ -43,7 +55,7 @@ The installation instruction differs whether you are using the C library or the 
 5. add this import to your .py code:
 > from python-boilerplate import *
 
-### Installing the Arduino package
+###  3.2. <a name='InstallingtheArduinopackage'></a>Installing the Arduino package
 1. clone this repository:
 > git clone //TODO:
 2. copy the folder **c-boilerplate** to your project library folder root:
@@ -56,7 +68,7 @@ The installation instruction differs whether you are using the C library or the 
 
 
 
-##  10. <a name='License'></a>License
+##  4. <a name='License'></a>License
 We distribute this software with a MIT licence:
 
 MIT License
